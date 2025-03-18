@@ -5,11 +5,6 @@ layout: archive
 
 <h3> Recent Posts </h3>
 
-<ul>
-<li> <b>[2025-03-18]</b> SIAI lab open! </li>
-
-</ul>
-
 {{ content }}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
@@ -24,5 +19,9 @@ layout: archive
 <div class="entries-{{ entries_layout }}">
   {% include documents-collection.html entries=posts type=entries_layout %}
 </div>
+
+<ul>
+<li> <b>[2025-03-18]</b> SIAI lab open! </li>
+</ul>
 
 {% include paginator.html %}
