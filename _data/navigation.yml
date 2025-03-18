@@ -2,8 +2,8 @@
 main:
   - title: "People"
     url: ../sites/people
- - title: "Research"
-   url: ../sites/publications
+  - title: "Research"
+    url: ../sites/publications
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
